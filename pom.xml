@@ -59,6 +59,7 @@
           <autoVersionSubmodules>true</autoVersionSubmodules>
         </configuration>
       </plugin>
+		  </plugin>
 
         </plugins>
 
