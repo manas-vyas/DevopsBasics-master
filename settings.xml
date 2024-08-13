@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.1.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0 http://maven.apache.org/xsd/settings-1.1.0.xsd">
+  <servers>
+    <server>
+      <id>Custom-artifact-snapshot-repo</id>
+      <username>admin</username>
+      <password>manas123</password>
+    </server>
+    <server>
+      <id>Custom-artifact-release-repo</id>
+      <username>admin</username>                                                                                
+      <password>manas123</password>
+    </server>
+        <server>
+        <id>custom-maven-release-repo</id>
+      <username>admin</username>                                                                                
+      <password>manas123</password>
+    </server>
+    <server>
+        <id>custom-maven-group</id>
+      <username>admin</username>                                                                                
+      <password>manas123</password>
+    </server>
+  </servers>
+  <mirrors>
+    <mirror>
+      <id>custom-maven-release-repo</id>
+      <name>custom-maven-release-repo</name>
+      <url>http://172.31.27.12:8081/repository/custom-maven-group/</url>
+      <mirrorOf>*</mirrorOf>
+    </mirror>
+  </mirrors>
+</settings>
