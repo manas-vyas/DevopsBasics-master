@@ -29,17 +29,17 @@
     </site>
   <repository>
      <id>Custom-artifact-release-repo</id>
-	 <url>http://172.31.27.12:8081/repository/Custom-artifact-release-repo/</url>
+	 <url>http://172.31.15.108:8081/repository/Custom-artifact-release-repo/</url>
   </repository> 
   <snapshotRepository>
      <id>Custom-artifact-snapshot-repo</id>
-	 <url>http://172.31.27.12:8081/repository/Custom-artifact-snapshot-repo/</url>
+	 <url>http://172.31.15.108:8081/repository/Custom-artifact-snapshot-repo/</url>
   </snapshotRepository>
   </distributionManagement>
 	<repositories>
              <repository>
                  <id>custom-maven-group</id>
-                 <url>http://172.31.27.12:8081/repository/custom-maven-group/</url>
+                 <url>http://172.31.15.108:8081/repository/custom-maven-group/</url>
              </repository>
         </repositories>
 
