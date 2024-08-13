@@ -36,6 +36,12 @@
 	 <url>http://172.31.27.12:8081/repository/Custom-artifact-snapshot-repo/</url>
   </snapshotRepository>
   </distributionManagement>
+	<repositories>
+             <repository>
+                 <id>custom-maven-group</id>
+                 <url>http://172.31.27.12:8081/repository/custom-maven-group/</url>
+             </repository>
+        </repositories>
 
   <build>
     <plugins>
